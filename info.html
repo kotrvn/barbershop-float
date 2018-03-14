@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta property="og:image" content="path/to/image.jpg">
+  <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+  <!-- Chrome, Firefox OS and Opera -->
+  <meta name="theme-color" content="#000">
+  <!-- Windows Phone -->
+  <meta name="msapplication-navbutton-color" content="#000">
+  <!-- iOS Safari -->
+  <meta name="apple-mobile-web-app-status-bar-style" content="#000">
+  <title>Барбершоп "Бородинский"</title>
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="css/libs.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="inner-page">
+  <header class="main-header">
+    <div class="container clearfix">
+      <nav class="main-nav">
+        <a class="logo-inner" href="index.html">
+          <img src="img/inner-logo.png" width="111" height="24" alt="Барбершоп Бородинский"> 
+        </a>
+        <ul>
+          <li class="active"><a>ИНФОРМАЦИЯ</a></li>
+          <li><a href="news.html">НОВОСТИ</a></li>
+          <li><a href="price.html">ПРАЙС-ЛИСТ</a></li>
+          <li><a href="shop.html">МАГАЗИН</a></li>
+          <li><a href="contacts.html">КОНТАКТЫ</a></li>
+        </ul>
+      </nav>
+      <div class="user-block">
+        <a class="login" href="#">Вход</a>
+      </div>
+    </div>
+  </header>
+  <main class="container">
+    <div class="inner-page-title">
+      <h1>Информация</h1>
+      <ul class="breadcrumbs">
+        <li><a href="index.html">Главная</a></li>
+        <li class="current">Информация</li>
+      </ul>
+    </div>
+    <div class="inner-content">
+      <div class="big-heading">
+        <h2>Информация</h2>
+      </div>
+      <div class="index-content clearfix">
+      <div class="index-content-left">
+        <h2 class="index-content-title">Записаться</h2>
+        <p>УКАЖИТЕ ЖЕЛАЕМУЮ ДАТУ И ВРЕМЯ И МЫ СВЯЖЕМСЯ С ВАМИ ДЛЯ ПОДТВЕРЖДЕНИЯ БРОНИ</p>
+        <form class="appointment-form" action="https://echo.htmlacademy.ru" method="post">
+          <input type="text" name="date" value="" placeholder="Дата">
+          <input type="text" name="time" value="" placeholder="Время">
+          <input type="text" name="name" value="" placeholder="Имя">
+          <input type="tel" name="phone" value="" placeholder="Телефон">
+          <button class="btn" type="sumit">Отправить</button>
+        </form>
+      </div>
+      <div class="index-content-right">
+        <h2 class="index-content-title">Фотогалерея</h2>
+          <div class="gallery">
+            <figure class="gallery-content">
+              <img src="img/photo-1.jpg" width="268" height="164" alt="">
+            </figure>
+            <button class="btn gallery-prev">Назад</button>
+            <button class="btn gallery-next">Вперед</button>
+          </div>
+      </div>
+    </div>
+    </div>
+  </main>
+  <footer class="main-footer inner-page-footer">
+    <div class="container clearfix">
+      <div class="footer-contacts">
+        Барбершоп "Бородинский"<br>
+        Адрес: Г. САНКТ-ПЕТЕРБУРГ, Б. КОНЮШЕННАЯ, Д. 19/8<br>
+        <a href="#">Как нас найти</a><br>
+        ТЕЛЕФОН: +7 (495) 666-02-66
+      </div>
+      <div class="footer-social">
+        <p>Давайте дружить!</p>
+        <a href="#" class="social-btn social-btn-vk">Вконтакте</a>
+        <a href="#" class="social-btn social-btn-fb">Фейс</a>
+        <a href="#" class="social-btn social-btn-inst">Инст</a>
+      </div>
+      <div class="footer-copyright">
+        <p>Разработано:</p>
+        <a href="#" class="btn">HTML Academy</a>
+      </div>
+    </div>
+  </footer>
+    <!-- Модальные окна -->
+  <div class="modal-content">
+    <button class="modal-content-close" type="button" title="Закрыть">Закрыть</button>
+    <h2 class="modal-content-title">Личный кабинет</h2>
+    <p>Введите свой логин и пароль.</p>
+    <form class="login-form" action="https://echo.htmlacademy.ru" method="post" >
+      <input type="text" class="icon-user" name="login" placeholder="Логин">
+      <input type="password" class="icon-password" name="password" placeholder="Пароль">
+      <label class="login-checkbox" ><input type="checkbox" name="remember">
+      <span class="checkbox-indicator"></span>
+      Запомните меня
+      </label>
+      <a href="#" class="restore">Я забыл пароль </a>
+      <button class="btn" type="submit">Войти</button>
+    </form>
+  </div>
+  <script src="js/libs.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

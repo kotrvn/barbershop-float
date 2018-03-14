@@ -1,0 +1,65 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite--icon-check {
+    width: 12px;
+    height: 12px;
+    background-position: -7px -7px;
+}
+
+.sprite--icon-fb {
+    width: 12px;
+    height: 22px;
+    background-position: -7px -33px;
+}
+
+.sprite--icon-fb-black {
+    width: 12px;
+    height: 22px;
+    background-position: -7px -69px;
+}
+
+.sprite--icon-inst {
+    width: 21px;
+    height: 21px;
+    background-position: -7px -105px;
+}
+
+.sprite--icon-inst-black {
+    width: 21px;
+    height: 21px;
+    background-position: -7px -140px;
+}
+
+.sprite--icon-lock {
+    width: 15px;
+    height: 17px;
+    background-position: -7px -175px;
+}
+
+.sprite--icon-login {
+    width: 18px;
+    height: 16px;
+    background-position: -7px -206px;
+}
+
+.sprite--icon-user {
+    width: 15px;
+    height: 15px;
+    background-position: -7px -236px;
+}
+
+.sprite--icon-vk {
+    width: 25px;
+    height: 16px;
+    background-position: -7px -265px;
+}
+
+.sprite--icon-vk-black {
+    width: 25px;
+    height: 16px;
+    background-position: -7px -295px;
+}

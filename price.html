@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta property="og:image" content="path/to/image.jpg">
+  <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+  <!-- Chrome, Firefox OS and Opera -->
+  <meta name="theme-color" content="#000">
+  <!-- Windows Phone -->
+  <meta name="msapplication-navbutton-color" content="#000">
+  <!-- iOS Safari -->
+  <meta name="apple-mobile-web-app-status-bar-style" content="#000">
+  <title>Барбершоп "Бородинский"</title>
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="css/libs.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="inner-page">
+  <header class="main-header">
+    <div class="container clearfix">
+      <nav class="main-nav">
+        <a class="logo-inner" href="index.html">
+          <img src="img/inner-logo.png" width="111" height="24" alt="Барбершоп Бородинский"> 
+        </a>
+        <ul>
+          <li><a href="info.html">ИНФОРМАЦИЯ</a></li>
+          <li><a href="news.html">НОВОСТИ</a></li>
+          <li class="active"><a>ПРАЙС-ЛИСТ</a></li>
+          <li><a href="shop.html">МАГАЗИН</a></li>
+          <li><a href="contacts.html">КОНТАКТЫ</a></li>
+        </ul>
+      </nav>
+      <div class="user-block">
+        <a class="login" href="#">Вход</a>
+      </div>
+    </div>
+  </header>
+  <main class="container">
+    <div class="inner-page-title">
+      <h1>Прайс-лист</h1>
+      <ul class="breadcrumbs">
+        <li><a href="index.html">Главная</a></li>
+        <li class="current">Прайс-лист</li>
+      </ul>
+    </div>
+    <div class="inner-content">
+      <div class="big-heading">
+        <h2>Истинно мужская стрижка</h2>
+      </div>
+      <div class="inner-columns clearfix">
+        <div class="inner-column-left">
+          <h2>МЫ ИСПОЛЬЗУЕМ ТОЛЬКО<br> ЛУЧШИЕ СРЕДСТВА:</h2>
+          <ul class="custom-list-1">
+            <li>Baxter of California</li>
+            <li>Mr Natty</li>
+            <li>Suavecito</li>
+            <li>Malin+Goetz</li>
+          </ul>
+        </div>
+        <div class="inner-column-right">
+          <h2>ЦЕНЫ НА УСЛУГИ<br> НАШИХ МАСТЕРОВ:</h2>
+          <table class="price-table">
+            <tr>
+              <td>Стрижка</td>
+              <td>1500 р.</td>
+            </tr>
+            <tr>
+              <td>СТРИЖКА БОРОДЫ</td>
+              <td>500 Р.</td>
+            </tr>
+            <tr>
+              <td>НАКРУТКА УСОВ</td>
+              <td>300 Р.</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="inner-columns clearfix">
+        <h2>НЕСКОЛЬКО СЛОВ О НАС:</h2>
+        <div class="inner-column-left">
+          <p class="short-text">Наша парикмахерская занимается исключительно мужскими стрижками. Стрижка каждого клиента для нас - это уникальная и продуманная до мелочей работа. Мы не работаем на количество, мы делаем качество.</p>
+        </div>
+        <div class="inner-column-right">
+          <p>Наша мастерская расположена в центре города, поэтому сделать стильную стрижку можно в любое время, даже в обеденный перерыв. Здесь вы можете погрузиться в удобную для вас атмосферу, чувствовать себя комфортно и свободно!</p>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="main-footer inner-page-footer">
+    <div class="container clearfix">
+      <div class="footer-contacts">
+        Барбершоп "Бородинский"<br>
+        Адрес: Г. САНКТ-ПЕТЕРБУРГ, Б. КОНЮШЕННАЯ, Д. 19/8<br>
+        <a href="#">Как нас найти</a><br>
+        ТЕЛЕФОН: +7 (495) 666-02-66
+      </div>
+      <div class="footer-social">
+        <p>Давайте дружить!</p>
+        <a href="#" class="social-btn social-btn-vk">Вконтакте</a>
+        <a href="#" class="social-btn social-btn-fb">Фейс</a>
+        <a href="#" class="social-btn social-btn-inst">Инст</a>
+      </div>
+      <div class="footer-copyright">
+        <p>Разработано:</p>
+        <a href="#" class="btn">HTML Academy</a>
+      </div>
+    </div>
+  </footer>
+    <!-- Модальные окна -->
+  <div class="modal-content">
+    <button class="modal-content-close" type="button" title="Закрыть">Закрыть</button>
+    <h2 class="modal-content-title">Личный кабинет</h2>
+    <p>Введите свой логин и пароль.</p>
+    <form class="login-form" action="https://echo.htmlacademy.ru" method="post" >
+      <input type="text" class="icon-user" name="login" placeholder="Логин">
+      <input type="password" class="icon-password" name="password" placeholder="Пароль">
+      <label class="login-checkbox" ><input type="checkbox" name="remember">
+      <span class="checkbox-indicator"></span>
+      Запомните меня
+      </label>
+      <a href="#" class="restore">Я забыл пароль </a>
+      <button class="btn" type="submit">Войти</button>
+    </form>
+  </div>
+  <script src="js/libs.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
